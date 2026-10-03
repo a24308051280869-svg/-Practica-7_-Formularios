@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularios con Agrupamiento</title>
+</head>
+<body>
+    <!-- Comentario: Uso de fieldset y legend para agrupar lógicamente campos relacionados -->
+    <h2>Formularios con agrupamiento</h2>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Datos personales</legend>
+            Nombre y apellido: <input type="text" name="nombre_apellido"><br>
+            Documento válido: <input type="file" name="documento"><br>
+            Fecha de nacimiento: <input type="date" name="fecha_nacimiento">
+        </fieldset>
+        <fieldset>
+            <legend>Datos de estudio:</legend>
+            Nombre de la escuela: <input type="text" name="escuela"><br>
+            Certificado válido: <input type="file" name="certificado"><br>
+            Fecha de egreso: <input type="date" name="fecha_egreso">
+        </fieldset>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    </form>
+</body>
+</html>
